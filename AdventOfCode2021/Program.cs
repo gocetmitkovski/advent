@@ -12,14 +12,15 @@ namespace AdventOfCode2021
                 new Day1Resolver(),
                 new Day2Resolver(),
                 new Day3Resolver(),
-                new Day4Resolver()
+                new Day4Resolver(),
+                new Day5Resolver()
             };
 
             for (int i = 0; i < dailyResolutions.Count; i++)
             {
-                Console.WriteLine($"==================== Day {i + 1} ====================");
+                Console.WriteLine($"--------------- Day {i + 1} ---------------");
                 dailyResolutions[i].ShowResult();
-                Console.WriteLine("\n");
+                Console.WriteLine('\r');
             }
 
             Console.ReadLine();
