@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace AdventOfCode2021.Problems
+namespace AdventOfCode2021.Solutions
 {
     public class Day1Solution : ISolution
     {
@@ -27,8 +27,7 @@ namespace AdventOfCode2021.Problems
                 }
             }
 
-            Console.WriteLine($"Day 1 part 1: {count1}");
-            Console.WriteLine($"Day 1 part 2: {count2}");
+            Console.WriteLine($"{count1} and { count2}");
         }
     }
 }

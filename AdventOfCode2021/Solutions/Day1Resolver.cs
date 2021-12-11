@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace AdventOfCode2021.Problems
+﻿namespace AdventOfCode2021.Solutions
 {
     public class Day1Resolver : AdventResolver
     {
