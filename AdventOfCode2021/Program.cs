@@ -14,7 +14,8 @@ namespace AdventOfCode2021
                 new Day3Resolver(),
                 new Day4Resolver(),
                 new Day5Resolver(),
-                new Day6Resolver()
+                new Day6Resolver(),
+                new Day7Resolver()
             };
 
             for (int i = 0; i < dailyResolutions.Count; i++)
